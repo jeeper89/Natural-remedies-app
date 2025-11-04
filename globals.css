@@ -1,0 +1,6 @@
+
+html, body { font-family: system-ui, Arial, sans-serif; }
+a { text-decoration: none; }
+.input { border: 1px solid #ddd; padding: 8px 10px; border-radius: 12px; width: 100%; }
+.btn { border: 1px solid #222; padding: 8px 12px; border-radius: 12px; background: #fff; cursor: pointer; }
+.grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }

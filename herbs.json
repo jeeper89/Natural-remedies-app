@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "ashwagandha",
+    "commonName": "Ashwagandha",
+    "latinName": "Withania somnifera",
+    "uses": [
+      "stress",
+      "anxiety",
+      "sleep",
+      "energy"
+    ],
+    "preparations": [
+      "tincture",
+      "capsule",
+      "tea"
+    ],
+    "dosage": "300\u2013600 mg extract daily; tea 1\u20132 tsp root per cup",
+    "safetyNotes": "May interact with sedatives and thyroid medications.",
+    "contraindications": [
+      "pregnancy",
+      "hyperthyroidism"
+    ],
+    "evidenceLevel": "Cohort",
+    "sources": [
+      "https://www.nccih.nih.gov/",
+      "https://www.ema.europa.eu/"
+    ]
+  },
+  {
+    "slug": "valerian",
+    "commonName": "Valerian root",
+    "latinName": "Valeriana officinalis",
+    "uses": [
+      "insomnia",
+      "anxiety"
+    ],
+    "preparations": [
+      "tincture",
+      "tea",
+      "capsule"
+    ],
+    "dosage": "400\u2013900 mg extract 30 minutes before bed",
+    "safetyNotes": "May cause drowsiness; avoid with alcohol/sedatives.",
+    "contraindications": [
+      "operating machinery"
+    ],
+    "evidenceLevel": "RCT",
+    "sources": [
+      "https://www.nccih.nih.gov/"
+    ]
+  },
+  {
+    "slug": "turmeric",
+    "commonName": "Turmeric (Curcumin)",
+    "latinName": "Curcuma longa",
+    "uses": [
+      "inflammation",
+      "joint pain",
+      "digestion"
+    ],
+    "preparations": [
+      "powder",
+      "capsule",
+      "tea"
+    ],
+    "dosage": "500\u20131000 mg curcumin with black pepper, 1\u20132x/day",
+    "safetyNotes": "May thin blood; caution with anticoagulants.",
+    "contraindications": [
+      "gallstones",
+      "anticoagulant-use"
+    ],
+    "evidenceLevel": "MetaAnalysis",
+    "sources": [
+      "https://www.who.int/"
+    ]
+  }
+]

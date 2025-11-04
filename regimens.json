@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "calm-sleep-7d",
+    "title": "Calm Sleep (7 Days)",
+    "goal": "Improve sleep latency and quality",
+    "morning": [
+      "Light walk 15 min",
+      "Magnesium-rich breakfast"
+    ],
+    "afternoon": [
+      "Hydration check",
+      "Limit caffeine after 2pm"
+    ],
+    "evening": [
+      "Valerian tea 30 min before bed",
+      "Blue-light reduction 1 hr"
+    ],
+    "durationDays": 7,
+    "evidenceLevel": "Mixed",
+    "tags": [
+      "sleep",
+      "anxiety"
+    ],
+    "sources": [
+      "https://www.nccih.nih.gov/"
+    ]
+  },
+  {
+    "slug": "anti-inflammatory-14d",
+    "title": "Anti-Inflammatory (14 Days)",
+    "goal": "Reduce joint discomfort and systemic inflammation",
+    "morning": [
+      "Warm lemon water",
+      "Turmeric capsule with fat + pepper"
+    ],
+    "afternoon": [
+      "Anti-inflammatory lunch (leafy greens, omega-3)"
+    ],
+    "evening": [
+      "Golden milk",
+      "Gentle stretching 10 min"
+    ],
+    "durationDays": 14,
+    "evidenceLevel": "Cohort",
+    "tags": [
+      "inflammation",
+      "joints"
+    ],
+    "sources": [
+      "https://www.ema.europa.eu/"
+    ]
+  }
+]

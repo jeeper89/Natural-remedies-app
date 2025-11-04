@@ -1,0 +1,99 @@
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+  logs      Log[]
+}
+
+model Herb {
+  id           Int      @id @default(autoincrement())
+  slug         String   @unique
+  commonName   String
+  latinName    String?
+  uses         String[]
+  preparations String[]
+  dosage       String?
+  safetyNotes  String?
+  contraindications String[]
+  evidenceLevel String
+  sources      String[]
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  recipes      Recipe[]
+}
+
+model Recipe {
+  id           Int      @id @default(autoincrement())
+  slug         String   @unique
+  title        String
+  description  String?
+  instructions String
+  ingredients  String[]
+  targets      String[]
+  evidenceLevel String
+  sources      String[]
+  herbId       Int?
+  herb         Herb?      @relation(fields: [herbId], references: [id])
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Regimen {
+  id           Int      @id @default(autoincrement())
+  slug         String   @unique
+  title        String
+  goal         String
+  morning      String[]
+  afternoon    String[]
+  evening      String[]
+  durationDays Int
+  evidenceLevel String
+  tags         String[]
+  sources      String[]
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Log {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  date      DateTime @default(now())
+  items     String[]
+  symptoms  String[]
+  notes     String?
+  User      User     @relation(fields: [userId], references: [id])
+}
+
+model Source {
+  id        Int      @id @default(autoincrement())
+  title     String
+  type      String
+  url       String?
+  notes     String?
+  createdAt DateTime @default(now())
+}
+
+model UserGeneratedRemedy {
+  id           Int      @id @default(autoincrement())
+  title        String
+  description  String?
+  instructions String
+  ingredients  String[]
+  targets      String[]
+  submittedBy  String?
+  evidenceLevel String   @default("Traditional")
+  sources      String[]
+  status       String   @default("pending")
+  createdAt    DateTime @default(now())
+}

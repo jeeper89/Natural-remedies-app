@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "sleepy-time-valerian-tea",
+    "title": "Sleepy Time Valerian Tea",
+    "description": "A calming bedtime tea to support sleep onset.",
+    "instructions": "Steep 1 tsp dried valerian root in hot water for 10\u201315 minutes. Sweeten if desired.",
+    "ingredients": [
+      "valerian root 1 tsp",
+      "hot water 250 ml",
+      "honey optional"
+    ],
+    "targets": [
+      "insomnia",
+      "anxiety"
+    ],
+    "evidenceLevel": "RCT",
+    "sources": [
+      "https://www.nccih.nih.gov/"
+    ],
+    "herbRef": "valerian"
+  },
+  {
+    "slug": "golden-milk",
+    "title": "Anti-Inflammatory Golden Milk",
+    "description": "Warming turmeric latte for joints and digestion.",
+    "instructions": "Simmer milk with turmeric, pinch of black pepper, and ginger for 5 minutes.",
+    "ingredients": [
+      "milk 250 ml",
+      "turmeric 1 tsp",
+      "black pepper pinch",
+      "ginger 1/2 tsp"
+    ],
+    "targets": [
+      "inflammation",
+      "joint pain",
+      "digestion"
+    ],
+    "evidenceLevel": "MetaAnalysis",
+    "sources": [
+      "https://www.who.int/"
+    ],
+    "herbRef": "turmeric"
+  }
+]
